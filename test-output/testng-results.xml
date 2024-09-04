@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-08T21:26:23 IST" name="Default suite" finished-at="2024-08-08T21:26:30 IST" duration-ms="7885">
+  <suite started-at="2024-08-31T14:44:30 IST" name="Default suite" finished-at="2024-08-31T14:44:49 IST" duration-ms="18335">
     <groups>
     </groups>
-    <test started-at="2024-08-08T21:26:23 IST" name="Default test" finished-at="2024-08-08T21:26:30 IST" duration-ms="7885">
-      <class name="test.test1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.test1@223191a6]" started-at="2024-08-08T21:26:23 IST" name="setup" finished-at="2024-08-08T21:26:26 IST" duration-ms="3673" status="PASS">
+    <test started-at="2024-08-31T14:44:30 IST" name="Default test" finished-at="2024-08-31T14:44:49 IST" duration-ms="18335">
+      <class name="Examtest.Examtest1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Examtest.Examtest1@799f10e1]" started-at="2024-08-31T14:44:30 IST" name="setup" finished-at="2024-08-31T14:44:35 IST" duration-ms="4500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="url()[pri:0, instance:test.test1@223191a6]" started-at="2024-08-08T21:26:26 IST" name="url" finished-at="2024-08-08T21:26:30 IST" duration-ms="3702" status="PASS">
+        <test-method is-config="true" signature="urlOpen()[pri:0, instance:Examtest.Examtest1@799f10e1]" started-at="2024-08-31T14:44:35 IST" name="urlOpen" finished-at="2024-08-31T14:44:35 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- url -->
-        <test-method signature="testlogin()[pri:0, instance:test.test1@223191a6]" started-at="2024-08-08T21:26:30 IST" name="testlogin" finished-at="2024-08-08T21:26:30 IST" duration-ms="444" status="PASS">
+        </test-method> <!-- urlOpen -->
+        <test-method signature="page()[pri:0, instance:Examtest.Examtest1@799f10e1]" started-at="2024-08-31T14:44:35 IST" name="page" finished-at="2024-08-31T14:44:48 IST" duration-ms="13141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
-      </class> <!-- test.test1 -->
+        </test-method> <!-- page -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Examtest.Examtest1@799f10e1]" started-at="2024-08-31T14:44:48 IST" name="close" finished-at="2024-08-31T14:44:49 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Examtest.Examtest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
